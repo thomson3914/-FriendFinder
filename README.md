@@ -1,2 +1,2 @@
-# FriendFinder
-Node and Express Servers - A Full-Stack Dating App. 
+# Friend-Finder
+Node and Express Servers - A Full-Stack Friend Matching App. 
