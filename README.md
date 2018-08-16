@@ -19,8 +19,8 @@ https://murmuring-wave-95722.herokuapp.com/
 ### :boom: Features
 
 * A compatibility-based "FriendFinder" application (basically a dating app).  
-* This full-stack site will take in results from the users' survey, 
-* then compares their answers with those from other users. 
+* This full-stack site will take in results from the users' survey. 
+* It then compares their answers with those from other users. 
 * The closest match will be the friend with the least amount of difference.
 * Once the most compatible friend is found, their name and picture is displayed in the modal pop-up!
 
