@@ -16,7 +16,7 @@ Node and Express Servers - A Full-Stack Friend Matching App
 
 ### :boom: Features
 
-A compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from the users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+A compatibility-based "FriendFinder" application (basically a dating app). This full-stack site will take in results from the users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
 
 
@@ -28,6 +28,10 @@ Home.html
 Survey.html
 
 ![Survey.html](screenShots/survey.png)
+
+Best Overall Match
+
+![Best Overall Match](screenShots/bestMatch.png)
 
 Server.js
 
@@ -41,6 +45,4 @@ HtmlRoutes.js
 
 ![HtmlRoutes.js](screenShots/htmlRoutes.png)
 
-Best Overall Match
 
-![Best Overall Match](screenShots/bestMatch.png)
