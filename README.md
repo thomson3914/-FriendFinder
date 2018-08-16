@@ -38,16 +38,5 @@ Best Overall Match
 
 ![Best Overall Match](screenShots/bestMatch.png)
 
-Server.js
-
-![Server.js](screenShots/server.png)
-
-ApiRoutes.js
-
-![ApiRoutes.js](screenShots/apiRoutes.png)
-
-HtmlRoutes.js
-
-![HtmlRoutes.js](screenShots/htmlRoutes.png)
 
 
