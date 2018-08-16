@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <title>Friend Finder</title>
+</head>
+
+<body>
+    <div class="card text-dark">
+        <img class="card-img" src="image1.jpg" alt="Card image">
+        <div class="card-img-overlay">
+            <div class="jumbotron jumbotron-fluid bg-light shadow p-3 mb-5 bg-white rounded" style="margin-top: 40%;">
+                <div class="container">
+                    <h1 class="display-3 padding-bottom-3 text-info" style="margin-bottom: 20px">Friend Finder</h1>
+                    <h3>Survey Questions</h3>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="name">Name (Required)</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="photo">Photo (Required)</label>
+                                    <input type="text" class="form-control" id="photo" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q1">1. You love dogs more than people sometimes. </label>
+                                    <select class="form-control" id="q1">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q2">2. You strive to oneday be your own boss. </label>
+                                    <select class="form-control" id="q2">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q3">3. You like to explore new places.</label>
+                                    <select class="form-control" id="q3">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q4">4. You feel strongly about Taylor Swift. </label>
+                                    <select class="form-control" id="q4">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q5">5. People can rarely upset you.</label>
+                                    <select class="form-control" id="q5">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q6">6. You would prefer to Netflix and Chill.</label>
+                                    <select class="form-control" id="q6">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q7">7. You like to having experiences over things.</label>
+                                    <select class="form-control" id="q7">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q8">8. You are happiest with other people around you.</label>
+                                    <select class="form-control" id="q8">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q9">9. You like the current president.</label>
+                                    <select class="form-control" id="q9">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="q10">10. You prefer to give gifts rather than receive them.</label>
+                                    <select class="form-control" id="q10">
+                                        <option value="" disabled selected>Choose your options></option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 (Strongly Agree)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="submitButton" type="submit" name="action" class="btn btn-primary bg-info" data-toggle="modal">Send</button>
+                        <!-- data-target="#modal1" -->
+                    </form>
+                </div>
+            </div>
+            <div class='col s4'>
+                <p>
+                    <a href='/api/friends' class="text-info">API Friends List</a> |
+                    <a href='https://github.com/thomson3914/Friend-Finder' class="text-info" target='_blank'>GitHub Repo</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Display Friend match -->
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Compatible Friend Result</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="divider"></div>
+                    <h5 id="userName"></h5>
+                    <img id="userPic" class="img-thumbnail" width="200px" src="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#submitButton").on("click", function (event) {
+                event.preventDefault();
+                var userData = {
+                    name: $("#name").val().trim(),
+                    pic: $("#photo").val().trim(),
+                    scores: [
+                        $("#q1").val().trim(),
+                        $("#q2").val().trim(),
+                        $("#q3").val().trim(),
+                        $("#q4").val().trim(),
+                        $("#q5").val().trim(),
+                        $("#q6").val().trim(),
+                        $("#q7").val().trim(),
+                        $("#q8").val().trim(),
+                        $("#q9").val().trim(),
+                        $("#q10").val().trim(),
+                    ]
+                };
+
+                $.post("/api/friends", userData, function (data) {
+                    $("#userName").text(data.matchName);
+                    $("#userPic").attr("src", data.matchPic);
+                });
+
+                $(".modal").modal();
+                $("#name").val("");
+                $("#photo").val("");
+                $("#q1").val("");
+                $("#q2").val("");
+                $("#q3").val("");
+                $("#q4").val("");
+                $("#q5").val("");
+                $("#q6").val("");
+                $("#q7").val("");
+                $("#q8").val("");
+                $("#q9").val("");
+                $("#q10").val("");
+
+            });
+        });
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
